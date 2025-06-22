@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shreyanshi Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <header>
+    <h1>Shreyanshi Kushwah</h1>
+    <p>B.Tech CSE |</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#Hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hello! I'm Shreyanshi</h2>
+    <p>I am a <span id="typing-text" style="color:#4781ee; font-weight:600;"></span></p>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" data-aos="fade-down">
+    <h2>About Me</h2>
+    <p>I am a Computer Science student who loves building projects using Java, Python, and Web Technologies.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" data-aos="fade-left">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>HTML, CSS</li>
+      <li>MySQL</li>
+      <li>MATLAB</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-right">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Quiz App:</strong> Java + Swing + MySQL GUI quiz app</li>
+      <li><strong>Image Steganography:</strong> Hidden message app using MATLAB</li>
+    </ul>
+  </section>
+
+ <!--My Hobbies  -->
+  <section id="My Hobbies" data-aos="fade-up">
+        <h2>My Hobbies</h2>
+        <p>Paniting and Drawing, Learning New Tech, and Solving Puzzles 🧩</p>
+      </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="flip-left">
+    <h2>Contact Me</h2>
+    <p>Email: kushwahshreyanshi73@gmail.com</p>
+    <p>GitHub: https://github.com/</p>
+    <p>LinkedIn: www.linkedin.com/in/shreyanshi-kushwah-5b811a371</p>
+  </section>
+
+  <footer>
+    <p>© 2024 Shreyanshi Kushwah</p>
+  </footer>
+  <!-- AOS JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+<!-- Typed.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  var typed = new Typed("#typing-text", {
+    strings: ["Java Developer", "Creative Coder", "Tech Explorer", "Problem Solver"],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
+
+</html>
